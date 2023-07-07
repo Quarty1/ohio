@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    padding: 10px;
+
+}
+img {
+ 
+    height: 40px;
+    width: 40px;
+}
+.nav li {
+    display: inline;
+    flex: space-around;
+}
+.nav a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+ li {
+   font-family: 'Oxygen', sans-serif;
+   
+}
+ nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center ;
+ }
