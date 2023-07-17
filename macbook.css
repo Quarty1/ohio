@@ -1,0 +1,130 @@
+div.head {
+  color: aliceblue;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: first baseline;
+}
+body {
+  background-color: black;
+  background-size: 1000000000px;
+}
+div.macbookM1 {
+  display: flex;
+  border-radius: 50px;
+  background-color: #302f2f96;
+  border-color: #222222;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+div.macText {
+  margin-left: 50px;
+  color: aliceblue;
+}
+.text1 {
+  margin-top: 1vw;
+  font-size: 1vw;
+}
+.text2 {
+  margin-top: 2px;
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+.text3 {
+  font-size: 5vw;
+  margin-bottom: 1px;
+}
+div.a {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.Learn-more {
+  margin-left: 1vw;
+}
+.zai {
+  margin-top: 10px;
+}
+.text4 {
+  margin-top: 20px;
+  display: flex;
+  color: aliceblue;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 150%;
+}
+.macBook {
+  display: flex;
+  color: aliceblue;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mac13Photo {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.text7 {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.text5 {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.text6 {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.text8 {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.text9 {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.text10 {
+  margin-top: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.zai1 {
+  font-size: 40px;
+}
+.mac13 {
+  background-color: #222222;
+  border-radius: 40px;
+  border-width: 10px;
+  border-color: #222222;
+}
+.mac132 {
+  background-color: #222222;
+  border-radius: 40px;
+  border-width: 100px;
+  border-color: #222222;
+}
+.mac15 {
+  background-color: #222222;
+  border-radius: 40px;
+  border-width: 10px;
+  border-color: #222222;
+}
+.chip {
+  border-radius: 10px;
+}
