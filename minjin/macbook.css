@@ -8,12 +8,11 @@ div.head {
 }
 body {
   background-color: black;
-  background-size: 1000000000px;
 }
 div.macbookM1 {
   display: flex;
-  border-radius: 50px;
-  background-color: #302f2f96;
+  border-radius: 5vw;
+  background-color: #222222;
   border-color: #222222;
   flex-direction: row;
   justify-content: space-evenly;
@@ -45,7 +44,7 @@ div.a {
   margin-left: 1vw;
 }
 .zai {
-  margin-top: 10px;
+  font-size: 2vw;
 }
 .text4 {
   margin-top: 20px;
@@ -100,31 +99,74 @@ div.a {
 .text10 {
   margin-top: 20px;
   font-size: 20px;
+  margin-top: 3vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .zai1 {
-  font-size: 40px;
+  font-size: 5vw;
 }
 .mac13 {
   background-color: #222222;
   border-radius: 40px;
   border-width: 10px;
   border-color: #222222;
+  width: 23vw;
 }
 .mac132 {
   background-color: #222222;
   border-radius: 40px;
   border-width: 100px;
   border-color: #222222;
+  width: 23vw;
 }
 .mac15 {
   background-color: #222222;
   border-radius: 40px;
   border-width: 10px;
   border-color: #222222;
+  width: 23vw;
+}
+.memory {
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .chip {
-  border-radius: 10px;
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.zai2 {
+  font-size: 3vw;
+}
+.zai4 {
+  font-size: 3vw;
+}
+.battery{
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.camera{
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.speaker{
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.finger{
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
