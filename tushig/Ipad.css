@@ -17,10 +17,12 @@ img {
     text-decoration: none;
 }
  
- nav {
-    display:flex;
-    justify-content: space-around;
-    align-items: center ;
+nav {
+  display:flex;
+  justify-content: space-around;
+  align-items: center ;
+  font-family: 'Oxygen', sans-serif;
+}
 
     font-family: 'Oxygen', sans-serif;
  }
