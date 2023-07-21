@@ -1,0 +1,1 @@
+var js_response={"authToken":null,"responseOne":"Your purchase code is valid & result is listed above!","responseTwo":"Your purchase code is not valid or having problem with connecting with the market api. Please check again!","responseThree":"Invalid Code!","responseFour":"Please go to the settings page & set your token to see validator working!"}
