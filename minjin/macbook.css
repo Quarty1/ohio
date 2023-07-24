@@ -5,13 +5,13 @@ div.head {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  border-radius: 2vw;
+  border-radius: 20px;
   border-width: 1px;
   border-bottom-width: 3px;
   border-style: solid;
   border-color: white;
   background-color: #222222;
-  margin-bottom: 5vw;
+  margin-bottom: 50px;
 }
 a {
   color: aliceblue;
@@ -23,7 +23,7 @@ body {
 }
 div.macbookM1 {
   display: flex;
-  border-radius: 5vw;
+  border-radius: 50px;
   background-color: #222222;
   flex-direction: row;
   justify-content: space-around;
@@ -33,16 +33,16 @@ div.macText {
   color: aliceblue;
 }
 .text1 {
-  margin-top: 1vw;
-  font-size: 1vw;
+  margin-top: 10px;
+  font-size: 15px;
 }
 .text2 {
   margin-top: 2px;
-  font-size: 2vw;
-  margin-bottom: 2vw;
+  font-size: 20px;
+  margin-bottom: 40px;
 }
 .text3 {
-  font-size: 5vw;
+  font-size: 50px;
   margin-bottom: 1px;
 }
 div.a {
@@ -52,17 +52,17 @@ div.a {
   margin-bottom: 10px;
 }
 .Learn-more {
-  margin-left: 1vw;
+  margin-left: 15px;
 }
 .zai {
-  font-size: 2vw;
+  font-size: 20px;
 }
 .text4 {
   margin-top: 20px;
   display: flex;
   color: aliceblue;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 150%;
 }
 .macBook {
@@ -70,6 +70,7 @@ div.a {
   color: aliceblue;
   flex-direction: row;
   justify-content: space-around;
+  margin: 60px;
 }
 .mac13Photo {
   margin-top: 25px;
@@ -100,83 +101,91 @@ div.a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  background-color: rgba(248, 35, 35, 0.973);
+  margin-left: 55px;
+  margin-right: 55px;
+  border-radius: 15px;
 }
 .text9 {
   font-size: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  color: rgba(248, 35, 35, 0.973);
 }
 .text10 {
   margin-top: 20px;
-  font-size: 20px;
-  margin-top: 3vw;
+  font-size: 40px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .zai1 {
-  font-size: 5vw;
+  font-size: 50px;
 }
 .mac13 {
   background-color: #222222;
   border-radius: 40px;
   border-width: 10px;
   border-color: #222222;
-  width: 23vw;
+  width: 230px;
+  margin: 30px;
 }
 .mac132 {
   background-color: #222222;
   border-radius: 40px;
   border-width: 100px;
   border-color: #222222;
-  width: 23vw;
+  width: 230px;
+  margin: 30px;
 }
 .mac15 {
   background-color: #222222;
   border-radius: 40px;
   border-width: 10px;
   border-color: #222222;
-  width: 23vw;
+  width: 230px;
+  margin: 30px;
 }
 .memory {
-  margin-top: 3vw;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .chip {
-  margin-top: 3vw;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .zai2 {
-  font-size: 3vw;
+  font-size: 30px;
 }
 .zai4 {
-  font-size: 3vw;
+  font-size: 30px;
 }
 .battery {
-  margin-top: 3vw;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .camera {
-  margin-top: 3vw;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .speaker {
-  margin-top: 3vw;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .finger {
-  margin-top: 3vw;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -185,13 +194,24 @@ div.a {
   height: 400px;
   width: auto;
 }
-@media screen and (max-width: 600px) {
+.buy {
+  background-color: rgba(248, 35, 35, 0.973);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+}
+.Learn-more {
+  color: rgba(248, 35, 35, 0.973);
+}
+
+@media screen and (max-width: 915px) {
   div.macbookM1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 5vw;
+    border-radius: 50px;
     width: auto;
+    margin: 65px;
   }
   .macPhoto {
     display: flex;
@@ -204,8 +224,55 @@ div.a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 75px;
   }
   .mac13 {
     width: auto;
+  }
+  .mac132 {
+    width: auto;
+  }
+  .mac15 {
+    width: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  div.macbookM1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 50px;
+    width: auto;
+    margin: 5px;
+  }
+  .macPhoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: auto;
+  }
+  .macBook {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 25px;
+  }
+  .mac13 {
+    width: auto;
+  }
+  .mac132 {
+    width: auto;
+  }
+  .mac15 {
+    width: auto;
+  }
+  .text4 {
+    margin: 25px;
+    display: fles;
+    color: aliceblue;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 150%;
   }
 }

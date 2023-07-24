@@ -1,2 +1,0 @@
-document.tidioChatCode="j6qcyelgflfgofporky3q70cyhegifk8";(function(){function asyncLoad(){var tidioScript=document.createElement("script");tidioScript.type="text/javascript";tidioScript.async=!0;tidioScript.src="//code.tidio.co/j6qcyelgflfgofporky3q70cyhegifk8.js";document.body.appendChild(tidioScript)}
-if(window.attachEvent){window.attachEvent("onload",asyncLoad)}else{window.addEventListener("load",asyncLoad,!1)}})()

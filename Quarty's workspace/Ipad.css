@@ -40,8 +40,10 @@ div.page1 {
 }
 .whichlaptop {
   color: white;
-  font-size: 2.5vw;
-  margin-left: 35vw;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
 }
 .zai1 {
   font-size: 40px;
@@ -61,8 +63,6 @@ div.page1 {
 .ipad2 {
   background-color: #222222;
   border-radius: 40px;
-  border-width: 10px;
-  border-color: #222222;
 }
 .ipad1 {
   background-color: #222222;
@@ -129,4 +129,69 @@ div.page1 {
 .chip {
   border-radius: 10px;
   margin-left: 40%;
+}
+a {
+  text-decoration-line: none;
+  color: aliceblue;
+}
+.whichlaptop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 1280px) {
+  div.page1 {
+    width: auto;
+    display: flex;
+    border-radius: 50px;
+    background-color: #302f2f96;
+    border-color: #222222;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .ipad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ipad1 {
+    margin-top: 20px;
+    width: auto;
+
+    padding: 40px;
+  }
+  .ipad2 {
+    margin-top: 20px;
+    width: auto;
+    padding: 50px;
+  }
+  .ipadair {
+    margin-top: 20px;
+    width: auto;
+    padding: 60px;
+  }
+  .ipadmini {
+    margin-top: 20px;
+    width: auto;
+    padding: 40px;
+  }
+  .ipadpro {
+    margin-top: 20px;
+    width: auto;
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .iphero {
+    width: 340px;
+    height: auto;
+  }
+  .ipadhero {
+    width: 300px;
+    height: auto;
+  }
+  .page1 {
+    padding: 30px;
+  }
 }
